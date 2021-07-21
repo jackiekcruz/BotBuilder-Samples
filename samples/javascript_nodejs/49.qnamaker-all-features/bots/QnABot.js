@@ -40,7 +40,7 @@ class QnABot extends ActivityHandler {
             const membersAdded = context.activity.membersAdded;
             for (let cnt = 0; cnt < membersAdded.length; cnt++) {
                 if (membersAdded[cnt].id !== context.activity.recipient.id) {
-                    await context.sendActivity('Welcome to the QnA Maker sample! Ask me a question and I will try to answer it.');
+                    await context.sendActivity('Welcome to the Duke Registrar bot! The Duke registrar is responsible for managing a wide variety of academic services for the Duke Community. This includes but is not limited to managing and providing information about drop/add, final exam schedules, transfer credit, and DukeHub navigation. Ask me a question and I will try my best to answer it.');
                 }
             }
 
